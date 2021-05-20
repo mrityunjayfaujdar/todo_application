@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 
 const databaseURL = "mongodb://localhost/Todo_Notes";
+
 const connectToDB = async () => {
   try {
     await mongoose.connect(databaseURL, {
